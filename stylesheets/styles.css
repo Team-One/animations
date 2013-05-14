@@ -154,7 +154,7 @@ header ul li + li {
 
 header ul li + li + li {
   border-right:none;
-;
+
 }
 
 header ul a strong {
@@ -177,9 +177,9 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
 
+  float:left;
+	display: block;
 }
 
 /* CUSTOM CSS RULES */
@@ -190,6 +190,8 @@ footer {
 	width: 100%;
 	border-top: 1px solid rgba(89, 92, 90, .3);
 	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 /* MEDIA QUERIES */
