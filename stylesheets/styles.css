@@ -184,6 +184,12 @@ footer {
 	width: 1224px;
 }
 
+.entry {
+	width: 100%;
+}
+
+/* MEDIA QUERIES */
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
