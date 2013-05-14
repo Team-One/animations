@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
-  font:14px/1.5 "ClarendonBT-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font:14px/1.5 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#595c5a;
-  font-weight:300;
+  margin: 0 auto;
+  padding-top: 15px;
+  border-top: 3px solid #595c5a;
 }
 
 article, aside, figure, footer, header, hgroup, menu, nav, section {
@@ -15,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
   color:#ff6a00;
   margin:0 0 20px;
   font-family: "ProximaNovaA-Regular";
-
 }
 
 
@@ -39,6 +40,10 @@ a {
   color:#39c;
   font-weight:bold;
   text-decoration:none;
+  
+  transition: .15s ease;
+  		-webkit-transition: .15s ease;
+  		-moz-transition: .15s ease;
 }
 
 a:hover {
