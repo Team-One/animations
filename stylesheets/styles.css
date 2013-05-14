@@ -183,13 +183,12 @@ footer {
 
 /* CUSTOM CSS RULES */
 
-#iso-animation {
-	width: 1224px;
-}
+
 
 .entry {
 	width: 100%;
 	border-top: 1px solid rgba(89, 92, 90, .3);
+	display: block;
 }
 
 /* MEDIA QUERIES */
