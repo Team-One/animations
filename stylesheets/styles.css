@@ -183,6 +183,12 @@ footer {
   bottom:50px;
 }
 
+/* CUSTOM CSS RULES */
+
+#iso-animation {
+	width: 1224px;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
