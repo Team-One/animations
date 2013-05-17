@@ -109,12 +109,35 @@ section {
 .entry {
 	width: 100%;
 	border-top: 1px solid rgba(89, 92, 90, .3);
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 15px;
 	padding-top: 20px;
 }
 
-.btn
+.btn {
+	background-color: rgb(255, 106, 0);
+	padding: 10px 25px;
+	margin: 15px 0;
+	color: white;
+	font-weight: normal;
+	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+
+.btn:hover {
+	background-color: rgba(255, 106, 0, .7);
+	
+}
+
+.btn:active {
+	-webkit-box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
+	-moz-box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
+	
+}
 
 
 /* MEDIA QUERIES */
