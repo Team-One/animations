@@ -139,6 +139,17 @@ section {
 	
 }
 
+.details {
+	list-style: none;
+	line-height: 1.8em;
+}
+
+.details li {
+	border-left: 5px solid black;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
 
 /* MEDIA QUERIES */
 
