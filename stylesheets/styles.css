@@ -114,10 +114,17 @@ section {
 	padding-top: 20px;
 }
 
+.entry-info {
+	font-weight: lighter;
+	color: rgb(200,203,199);
+	font-size: x-large;
+	float: right;
+}
+
 .btn {
 	background-color: rgb(255, 106, 0);
 	padding: 10px 25px;
-	margin: 15px 0;
+	margin: 15px 20px;
 	color: white;
 	font-weight: normal;
 	
@@ -137,6 +144,16 @@ section {
 	-moz-box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
 	box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
 	
+}
+
+#kitchen-sink-btn {
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+}
+
+#kitchen-sink-btn:hover {
+	background-color: rgba(0,0,0,.7);
+	color: rgba(255,255,255,.9);
 }
 
 .details {
