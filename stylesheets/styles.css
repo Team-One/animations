@@ -227,6 +227,16 @@ section {
 	margin-bottom: 5px;
 }
 
+#resource-list {
+	list-style: none;
+}
+
+#resource-list li {
+	border-top: 1px dashed #cecece;
+	padding-top: 15px;
+	margin-bottom: 30px;
+}
+
 
 /* MEDIA QUERIES */
 
