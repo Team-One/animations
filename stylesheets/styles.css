@@ -277,6 +277,17 @@ section {
 .resource-img {
 	max-width: 800px;
 	
+	-webkit-transition: .15s ease;
+	-moz-transition: .15s ease;
+	transition: .15s ease;
+	
+	
+}
+
+.resource-img:hover {
+	opacity: .8;
+	max-width: 810px;
+	
 }
 
 
