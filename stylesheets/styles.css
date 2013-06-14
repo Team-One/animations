@@ -296,6 +296,93 @@ section {
 	
 }
 
+.leader-thumbnails {
+	list-style: none;
+	display: block;
+	float: left;
+}
+
+.leader-thumbnails li {
+	display: block;
+	float: left;
+	padding: 0 5px;
+	
+}
+
+.leader-img {
+	height: 274px;
+	width: 215px;
+	
+	-moz-transition: .5s ease;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+	
+}
+
+
+
+.leader-name {
+	text-align: center;
+	-moz-transition: .5s ease;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+	
+}
+
+.leader-thumbnails li a:hover .leader-name {
+	color: rgb(255,106,0);
+}
+
+/* LEADERSHIP PHOTOS */
+
+/* KURT RITTER */
+
+#leader-img-kritter {
+	background-image: url(../img/leaders/img-leadership-kritter-bw.jpg);
+	
+}
+
+#leader-img-kritter:hover {
+	background-image: url(../img/leaders/img-leadership-kritter.jpg);
+	
+}
+
+/* PAUL MARESKI */
+
+#leader-img-pmareski {
+	background-image: url(../img/leaders/img-leadership-pmareski-bw.jpg);
+	
+}
+
+#leader-img-pmareski:hover {
+	background-image: url(../img/leaders/img-leadership-pmareski.jpg);
+	
+}
+
+/* CHRIS GRAVES */
+
+#leader-img-cgraves {
+	background-image: url(../img/leaders/img-leadership-cgraves-bw.jpg);
+	
+}
+
+#leader-img-cgraves:hover {
+	background-image: url(../img/leaders/img-leadership-cgraves.jpg);
+	
+}
+
+/* ALASTAIR GREEN */
+
+#leader-img-agreen {
+	background-image: url(../img/leaders/img-leadership-agreen-bw.jpg);
+	
+}
+
+#leader-img-agreen:hover {
+	background-image: url(../img/leaders/img-leadership-agreen.jpg);
+	
+}
+
 
 /* MEDIA QUERIES */
 
