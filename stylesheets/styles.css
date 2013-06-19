@@ -185,6 +185,9 @@ section {
 	-moz-box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
 	box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
 	
+	transition: .1s ease;
+	-webkit-transition: .1s ease;
+	
 }
 .page-header {
 	display: block;
@@ -334,6 +337,183 @@ section {
 .leader-thumbnails li a:hover .leader-name {
 	color: rgb(255,106,0);
 }
+
+/* BUTTON TEST */
+
+.button-tests {
+	list-style: none;
+	margin: 0 auto;
+	padding-top: 20px;
+	display: block;
+	margin-top: 40px;
+	
+}
+
+.button-tests li {
+	display: block;
+	float: left;
+}
+
+.button-tests li .btn {
+	-webkit-transition: .75s ease;
+	-moz-transition: .75s ease;
+	transition: .75s ease;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+#button-test-1 {
+	background-color: transparent;
+	color: rgba(255,106,0,1.0);
+	border: 1px solid rgba(255,106,0,1.0);
+
+	
+}
+
+#button-test-1:hover {
+	background-color: rgba(255,106,0,1.0);
+	color: rgba(255,255,255,1.0);
+}
+
+#button-test-2 {
+	background-color: transparent;
+	color: rgba(255,106,0,1.0);
+	border: 1px solid rgba(90,92,99,1.0);
+
+	
+}
+
+#button-test-2:hover {
+	background-color: rgba(90,92,99,1.0);
+	color: rgba(255,255,255,1.0);
+	
+}
+
+#button-test-3 {
+	background-color: transparent;
+	color: rgba(255,106,0,1.0);
+	border: 1px solid rgba(200,203,199,1.0);
+	
+	
+}
+
+#button-test-3:hover {
+	background-color: rgba(200,203,199,1.0);
+	color: rgba(90,92,99,1.0);
+}
+
+
+#button-test-4 {
+	background-color: transparent;
+	color: rgba(255,106,0,1.0);
+	border: 2px solid rgba(255,106,0,1.0);
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 0;
+}
+
+#button-test-4:hover {
+	background-color: rgba(255,106,0,1.0);
+	color: rgba(255,255,255,1.0);
+}
+
+#button-test-5 {
+	background-color: transparent;
+	color: rgba(255,106,0,1.0);
+	border: 2px solid rgba(90,92,99,1.0);
+	font-style: italic;
+	
+	
+}
+
+#button-test-5:hover {
+	background-color: rgba(90,92,99,1.0);
+	color: rgba(255,255,255,1.0);
+	
+}
+
+#button-test-6 {
+	background-color: transparent;
+	color: rgba(255,106,0,1.0);
+	border: 2px solid rgba(200,203,199,1.0);
+	border-radius: 0;
+	
+}
+
+#button-test-6:hover {
+	background-color: rgba(200,203,199,1.0);
+	color: rgba(90,92,99,1.0);
+}
+
+#button-test-7 {
+	background-color: transparent;
+	color: rgba(255,106,0,1.0);
+	border: 1px solid rgba(255,106,0,1.0);
+	border-radius: 0;
+}
+
+#button-test-7:hover {
+	background-color: rgba(255,106,0,1.0);
+	color: rgba(255,255,255,1.0);
+}
+
+#button-test-8 {
+	background-color: transparent;
+	color: rgba(90,92,99,1.0);
+	border: 1px solid rgba(90,92,99,1.0);
+	border-radius: 0;
+}
+
+#button-test-8:hover {
+	background-color: rgba(90,92,99,1.0);
+	color: rgba(255,255,255,1.0);
+}
+
+#button-test-9 {
+	background-color: transparent;
+	color: rgba(200,203,199,1.0);
+	border: 1px solid rgba(200,203,199,1.0);
+	border-radius: 0;
+}
+
+#button-test-9:hover {
+	background-color: rgba(200,203,199,1.0);
+	color: rgba(255,255,255,1.0);
+}
+
+#button-test-10 {
+	background-color: rgba(255,106,0,1.0);
+	color: rgba(255,255,255,1.0);
+}
+
+#button-test-10:hover {
+	background-color: rgba(204,85,0,1.0);
+	color: rgba(255,255,255,1.0);
+	
+}
+
+#button-test-11 {
+	background-color: rgba(90,92,99,1.0);
+	color: rgba(255,255,255,1.0);
+	
+}
+
+#button-test-11:hover {
+	background-color: rgba(44,45,48,1.0);
+	color: rgba(255,255,255,1.0);
+}
+
+#button-test-12 {
+	background-color: rgba(200,203,199,1.0);
+	color: rgba(255,255,255,1.0);
+	
+}
+
+#button-test-12:hover {
+	background-color: rgba(151,153,150,1.0);
+	color: rgba(255,255,255,1.0);
+}
+
 
 /* LEADERSHIP PHOTOS */
 
