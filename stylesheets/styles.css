@@ -489,6 +489,10 @@ section {
 	color: rgba(255,255,255,1.0);
 }
 
+#button-test-7:active {
+	background-color: rgba(204,85,0,1.0);
+}
+
 #button-test-8 {
 	background-color: transparent;
 	color: rgba(90,92,99,1.0);
@@ -501,6 +505,11 @@ section {
 	color: rgba(255,255,255,1.0);
 }
 
+#button-test-8:active {
+	background-color: rgba(44,45,48,1.0);
+
+}
+
 #button-test-9 {
 	background-color: transparent;
 	color: rgba(200,203,199,1.0);
@@ -511,6 +520,10 @@ section {
 #button-test-9:hover {
 	background-color: rgba(200,203,199,1.0);
 	color: rgba(255,255,255,1.0);
+}
+
+#button-test-9:active {
+	background-color: rgba(151,153,150,1.0);
 }
 
 #button-test-10 {
