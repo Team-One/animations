@@ -159,32 +159,25 @@ section {
 
 .entry .img-small {
 	max-width: 650px;
-	border: 1px solid rgba(0,0,0,.4);
+	border: 1px solid rgba(0,0,0,.2);
 }
 
 .btn {
-	background-color: rgb(255, 106, 0);
+	border: 1px solid rgb(255,106,0);
 	padding: 10px 25px;
 	margin: 15px 10px;
-	color: white;
+	color: rgb(255,106,0);
 	font-weight: normal;
 	
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
 	
 }
 
 .btn:hover {
-	background-color: rgba(255, 106, 0, .7);
-	
+	background-color: rgba(255, 106, 0, 1.0);
+	color:white;	
 }
 
 .btn:active {
-	-webkit-box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
-	-moz-box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
-	box-shadow: 0 0 3px 5px rgba(0,0,0,.3) inset;
-	
 	transition: .1s ease;
 	-webkit-transition: .1s ease;
 	
@@ -367,15 +360,14 @@ section {
 	padding-right: 3em;
 }
 
-.button-tests li .social-btn {
-	padding-left: 1em;
-	padding-right: 1em;
+.button-tests li .social-btn,
+.button-tests li .search-btn {
+	padding-left: .9em;
+	padding-right: .9em;
 	
 }
 
-.button-rows {
-	
-}
+
 
 
 .social-btn {
@@ -391,6 +383,29 @@ section {
 	background: no-repeat url(../img/icons/icon-twitter-white.png) center;
 	background-color: rgb(255,106,0);
 }
+
+.social-btn:active {
+	background-color: rgb(204,85,0);
+}
+
+.search-btn {
+	background: no-repeat url(../img/icons/icon-search-gray.png) center;
+	border: 1px solid rgb(90,92,99);
+	border-radius: 0; 
+	min-height: 20px;
+	min-width: 20px;
+}
+
+.search-btn:hover {
+	background: no-repeat url(../img/icons/icon-search-white.png) center;
+	background-color: rgb(90,92,99);
+}
+
+.search-btn:active {
+	background-color: rgb(44,45,48);
+	
+}
+
 
 
 
@@ -530,6 +545,7 @@ section {
 	background-color: rgba(255,106,0,1.0);
 	color: rgba(255,255,255,1.0);
 	border-radius: 0;
+	border: none;
 }
 
 #button-test-10:hover {
@@ -542,6 +558,7 @@ section {
 	background-color: rgba(90,92,99,1.0);
 	color: rgba(255,255,255,1.0);
 	border-radius: 0;
+	border: none;
 }
 
 #button-test-11:hover {
@@ -553,6 +570,7 @@ section {
 	background-color: rgba(200,203,199,1.0);
 	color: rgba(255,255,255,1.0);
 	border-radius: 0;
+	border: none;
 }
 
 #button-test-12:hover {
