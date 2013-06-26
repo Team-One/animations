@@ -584,7 +584,7 @@ section {
 /* KURT RITTER */
 
 #leader-img-kritter {
-	background-image: url(../img/leaders/img-leadership-kritter-bw.jpg);
+	background-image: url(../img/leaders/img-leadership-kritter-bw.jpg), url(../img/leaders/img-leadership-kritter.jpg);
 	
 }
 
@@ -596,7 +596,7 @@ section {
 /* PAUL MARESKI */
 
 #leader-img-pmareski {
-	background-image: url(../img/leaders/img-leadership-pmareski-bw.jpg);
+	background-image: url(../img/leaders/img-leadership-pmareski-bw.jpg),  url(../img/leaders/img-leadership-pmareski.jpg);
 	
 }
 
@@ -608,7 +608,7 @@ section {
 /* CHRIS GRAVES */
 
 #leader-img-cgraves {
-	background-image: url(../img/leaders/img-leadership-cgraves-bw.jpg);
+	background-image: url(../img/leaders/img-leadership-cgraves-bw.jpg), url(../img/leaders/img-leadership-cgraves.jpg);
 	
 }
 
@@ -620,7 +620,7 @@ section {
 /* ALASTAIR GREEN */
 
 #leader-img-agreen {
-	background-image: url(../img/leaders/img-leadership-agreen-bw.jpg);
+	background-image: url(../img/leaders/img-leadership-agreen-bw.jpg), url(../img/leaders/img-leadership-agreen.jpg);
 	
 }
 
