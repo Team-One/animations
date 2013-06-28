@@ -630,6 +630,21 @@ section {
 }
 
 
+.leadership-img {
+	-moz-filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+	
+	
+}
+
+.leadership-img:hover {
+	-moz-filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	
+}
+
 /* MEDIA QUERIES */
 
 @media print, screen and (max-width: 960px) {
